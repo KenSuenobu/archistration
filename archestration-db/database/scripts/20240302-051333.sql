@@ -5,7 +5,7 @@ CREATE SCHEMA arch;
 
 CREATE TABLE arch.user (
     id SERIAL NOT NULL PRIMARY KEY,
-    username VARCHAR(80) NOT NULL,
+    username VARCHAR(80) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     email_address VARCHAR(255) NOT NULL,
     name VARCHAR(120) NOT NULL,

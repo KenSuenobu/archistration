@@ -160,7 +160,7 @@ export default function RootLayout({
               paddingTop: '12px'
             }}>
               <Typography>
-                <Link href={'/'} underline={'none'} color={'#fff'}>Home</Link>
+                {/*<Link href={'/'} underline={'none'} color={'#fff'}>Home</Link>*/}
               </Typography>
             </Item>
 
